@@ -1,0 +1,14 @@
+{
+	"type": "content",
+	"modid": "wilderlandsdrops",
+	"name": "Wilderlands Drops",
+	"side": "universal",
+	"requiredOnClient": true,
+	"requiredOnServer": true,
+	"description" : "Adds loot to some Wilderlands Rustbound mobs",
+	"authors": ["Faeldray"],
+	"version": "1.0.0",
+	"dependencies": {
+		"wrustbound": "1.0.0"
+	}
+}

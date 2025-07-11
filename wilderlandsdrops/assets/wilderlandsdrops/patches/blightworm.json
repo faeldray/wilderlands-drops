@@ -1,0 +1,24 @@
+[
+	{
+		"op": "add",
+		"path": "/dropsByType",
+		"value": {
+			"*-adolescent": [
+				{
+					"type": "item",
+					"code": "game:compost",
+					"quantity": { "avg": 0.5, "var": 0.5 }
+				}
+			],
+			"*-mature": [
+				{
+					"type": "item",
+					"code": "game:compost",
+					"quantity": { "avg": 1.5, "var": 0.5 }
+				}
+			]
+		},
+		"file": "wrustbound:entities/land/rustbound/blightworm.json",
+		"side": "Server"
+	}
+]

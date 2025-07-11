@@ -1,0 +1,15 @@
+[
+	{
+		"op": "add",
+		"path": "/drops",
+		"value": [
+				{
+					"type": "item",
+					"code": "game:cattailtops",
+					"quantity": { "avg": 0.2, "var": 0 }
+				}
+			],
+		"file": "wrustbound:entities/air/banefly.json",
+		"side": "Server"
+	}
+]

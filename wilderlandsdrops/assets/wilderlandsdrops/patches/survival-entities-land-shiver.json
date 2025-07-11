@@ -1,0 +1,256 @@
+[
+	{
+		"op":"addmerge",
+		"path": "/client/behaviors",
+		"value": [ { "code": "harvestable", "duration": 2 } ],
+		"file": "game:entities/land/shiver.json",
+		"side": "Server",
+		"dependsOn": [ { "modid": "zrustdrops", "invert": true } ]
+	},
+	{
+		"op": "addmerge",
+		"path": "/server/behaviors",
+		"value": [
+			{ "code": "harvestable", "duration": 2, "fixedweight": true, "dropsByType": {
+				"*-surface": [
+					{
+						"type": "item",
+						"code": "game:gear-temporal",
+						"quantity": { "avg": 0.02666, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": { "avg": 0.2, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:gear-rusty",
+						"dropModbyStat": "rustyGearDropRate",
+						"quantity": { "avg": 0.01, "var": 0 }
+					}
+				],
+				"*-deep": [
+					{
+						"type": "item",
+						"code": "game:gear-temporal",
+						"quantity": { "avg": 0.033325, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:gear-rusty",
+						"dropModbyStat": "rustyGearDropRate",
+						"quantity": { "avg": 0.03, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": { "avg": 0.4, "var": 0 }
+					}
+				],		
+				"*-tainted": [
+					{
+						"type": "item",
+						"code": "game:gear-temporal",
+						"quantity": { "avg": 0.03999, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:gear-rusty",
+						"dropModbyStat": "rustyGearDropRate",
+						"quantity": { "avg": 0.07, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": { "avg": 0.6, "var": 0 }
+					}
+				],
+				"*-corrupt": [
+					{
+						"type": "item",
+						"code": "game:gear-temporal",
+						"quantity": { "avg": 0.046655, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:gear-rusty",
+						"dropModbyStat": "rustyGearDropRate",
+						"quantity": { "avg": 0.1, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": { "avg": 0.8, "var": 0 }
+					}
+				],
+				"*-nightmare": [
+					{
+						"type": "item",
+						"code": "game:gear-temporal",
+						"quantity": { "avg": 0.05332, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:gear-rusty",
+						"dropModbyStat": "rustyGearDropRate",
+						"quantity": { "avg": 0.2, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": { "avg": 1, "var": 0 }
+					}
+				],
+				"*": [
+					{
+						"type": "item",
+						"code": "game:gear-temporal",
+						"quantity": { "avg": 1, "var": 0.4 }
+					},
+					{
+						"type": "item",
+						"code": "game:gear-rusty",
+						"dropModbyStat": "rustyGearDropRate",
+						"quantity": { "avg": 5, "var": 2.5 }
+					},
+					{
+						"type": "item",
+						"code": "game:flaxfibers",
+						"quantity": { "avg": 2, "var": 0 }
+					},
+					{
+						"type": "item",
+						"code": "game:stackrandomizer-alljonas",
+						"quantity": { "avg": 0.4, "var": 0 }
+					}
+				]
+			}}
+		],
+		"file": "game:entities/land/shiver.json",
+		"side": "Server",
+		"dependsOn": [ { "modid": "zrustdrops", "invert": true } ]
+	},
+	{
+		"op": "add",
+		"path": "/dropsByType",
+		"value": {
+			"*-surface": [
+				{
+					"type": "item",
+					"code": "game:gear-temporal",
+					"quantity": { "avg": 0.02666, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.2, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:gear-rusty",
+					"dropModbyStat": "rustyGearDropRate",
+					"quantity": { "avg": 0.01, "var": 0 }
+				}
+			],
+			"*-deep": [
+				{
+					"type": "item",
+					"code": "game:gear-temporal",
+					"quantity": { "avg": 0.033325, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:gear-rusty",
+					"dropModbyStat": "rustyGearDropRate",
+					"quantity": { "avg": 0.03, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.4, "var": 0 }
+				}
+			],		
+			"*-tainted": [
+				{
+					"type": "item",
+					"code": "game:gear-temporal",
+					"quantity": { "avg": 0.03999, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:gear-rusty",
+					"dropModbyStat": "rustyGearDropRate",
+					"quantity": { "avg": 0.07, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.6, "var": 0 }
+				}
+			],
+			"*-corrupt": [
+				{
+					"type": "item",
+					"code": "game:gear-temporal",
+					"quantity": { "avg": 0.046655, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:gear-rusty",
+					"dropModbyStat": "rustyGearDropRate",
+					"quantity": { "avg": 0.1, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.8, "var": 0 }
+				}
+			],
+			"*-nightmare": [
+				{
+					"type": "item",
+					"code": "game:gear-temporal",
+					"quantity": { "avg": 0.05332, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:gear-rusty",
+					"dropModbyStat": "rustyGearDropRate",
+					"quantity": { "avg": 0.2, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 1, "var": 0 }
+				}
+			],
+			"*": [
+				{
+					"type": "item",
+					"code": "game:gear-temporal",
+					"quantity": { "avg": 1, "var": 0.4 }
+				},
+				{
+					"type": "item",
+					"code": "game:gear-rusty",
+					"dropModbyStat": "rustyGearDropRate",
+					"quantity": { "avg": 5, "var": 2.5 }
+				},
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 2, "var": 0 }
+				},
+				{
+					"type": "item",
+					"code": "game:stackrandomizer-alljonas",
+					"quantity": { "avg": 0.4, "var": 0 }
+				}
+			]
+		},
+		"file": "game:entities/land/shiver.json",
+		"side": "Server",
+		"dependsOn": [ { "modid": "zrustdrops" } ]
+	}
+]

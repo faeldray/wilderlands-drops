@@ -1,0 +1,13 @@
+[
+	{
+		"op": "add",
+		"path": "/drops/-",
+		"value": {
+			"type": "item",
+			"code": "game:clay-fire",
+			"quantity": { "avg": 0.33, "var": 0 }
+		},
+		"file": "wrustbound:entities/land/rust/wgolem.json",
+		"side": "Server"
+	}
+]

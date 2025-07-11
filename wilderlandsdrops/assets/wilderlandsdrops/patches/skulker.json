@@ -1,0 +1,31 @@
+[
+	{
+		"op": "add",
+		"path": "/dropsByType",
+		"value": {
+			"*-young": [
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.1, "var": 0 }
+				}
+			],
+			"*-adolescent": [
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.2, "var": 0 }
+				}
+			],
+			"*-mature": [
+				{
+					"type": "item",
+					"code": "game:flaxfibers",
+					"quantity": { "avg": 0.3, "var": 0 }
+				}
+			]
+		},
+		"file": "wrustbound:entities/land/rustbound/skulker.json",
+		"side": "Server"
+	}
+]
