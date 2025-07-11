@@ -1,7 +1,7 @@
 {
 	"type": "content",
 	"modid": "wilderlandsdrops",
-	"name": "Wilderlands Drops",
+	"name": "Wilderlands Rustbound Drops",
 	"side": "universal",
 	"requiredOnClient": true,
 	"requiredOnServer": true,
